@@ -125,33 +125,33 @@ function initBeforeAfterSlider() {
       sliderHandle.style.left = `${val}%`;
     });
   }
-
-  // Interactive Case Switcher
-  window.switchCase = function(caseType) {
-    const beforeImg = document.getElementById('comparison-before-img');
-    const afterImg = document.getElementById('comparison-after-img');
-    const buttons = document.querySelectorAll('.case-btn');
-
-    buttons.forEach(btn => btn.classList.remove('active'));
-
-    if (caseType === 'veneers') {
-      const btn = document.getElementById('case-veneers-btn');
-      if (btn) btn.classList.add('active');
-      if (beforeImg) beforeImg.src = './after_veneers.png';
-      if (afterImg) afterImg.src = './before_veneers.png';
-    } else if (caseType === 'whitening') {
-      const btn = document.getElementById('case-whitening-btn');
-      if (btn) btn.classList.add('active');
-      if (beforeImg) beforeImg.src = './after_whitening_laser.png';
-      if (afterImg) afterImg.src = './before_veneers.png';
-    } else if (caseType === 'crowns') {
-      const btn = document.getElementById('case-crowns-btn');
-      if (btn) btn.classList.add('active');
-      if (beforeImg) beforeImg.src = './screenshots_google/Screenshot 2026-07-20 214513.png';
-      if (afterImg) afterImg.src = './before_veneers.png';
-    }
-  };
 }
+
+// Global Interactive Case Switcher
+window.switchCase = function(caseType) {
+  const beforeImg = document.getElementById('comparison-before-img');
+  const afterImg = document.getElementById('comparison-after-img');
+  const buttons = document.querySelectorAll('.case-btn');
+
+  buttons.forEach(btn => btn.classList.remove('active'));
+
+  if (caseType === 'veneers') {
+    const btn = document.getElementById('case-veneers-btn');
+    if (btn) btn.classList.add('active');
+    if (beforeImg) beforeImg.src = './after_veneers.png';
+    if (afterImg) afterImg.src = './before_veneers.png';
+  } else if (caseType === 'whitening') {
+    const btn = document.getElementById('case-whitening-btn');
+    if (btn) btn.classList.add('active');
+    if (beforeImg) beforeImg.src = './after_whitening_laser.png';
+    if (afterImg) afterImg.src = './before_veneers.png';
+  } else if (caseType === 'crowns') {
+    const btn = document.getElementById('case-crowns-btn');
+    if (btn) btn.classList.add('active');
+    if (beforeImg) beforeImg.src = './screenshots_google/Screenshot 2026-07-20 214513.png';
+    if (afterImg) afterImg.src = './before_veneers.png';
+  }
+};
 
 /* --------------------------------------------------------------------------
    4. Gallery Carousel Slider (3 Cards per slide on Desktop)
