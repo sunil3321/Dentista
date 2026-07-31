@@ -138,17 +138,17 @@ function initBeforeAfterSlider() {
       const btn = document.getElementById('case-veneers-btn');
       if (btn) btn.classList.add('active');
       if (beforeImg) beforeImg.src = './after_veneers.png';
-      if (afterImg) afterImg.src = './before_veneers.png';
+      if (afterImg) afterImg.src = './before_case_all.png';
     } else if (caseType === 'whitening') {
       const btn = document.getElementById('case-whitening-btn');
       if (btn) btn.classList.add('active');
-      if (beforeImg) beforeImg.src = 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=90';
-      if (afterImg) afterImg.src = 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=1200&q=90';
+      if (beforeImg) beforeImg.src = './whitening_treatment.png';
+      if (afterImg) afterImg.src = './before_case_all.png';
     } else if (caseType === 'crowns') {
       const btn = document.getElementById('case-crowns-btn');
       if (btn) btn.classList.add('active');
-      if (beforeImg) beforeImg.src = 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1200&q=90';
-      if (afterImg) afterImg.src = 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=90';
+      if (beforeImg) beforeImg.src = './screenshots_google/Screenshot 2026-07-20 214513.png';
+      if (afterImg) afterImg.src = './before_case_all.png';
     }
   };
 }
