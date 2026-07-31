@@ -138,17 +138,17 @@ function initBeforeAfterSlider() {
       const btn = document.getElementById('case-veneers-btn');
       if (btn) btn.classList.add('active');
       if (beforeImg) beforeImg.src = './after_veneers.png';
-      if (afterImg) afterImg.src = './before_case_all.png';
+      if (afterImg) afterImg.src = './before_veneers.png';
     } else if (caseType === 'whitening') {
       const btn = document.getElementById('case-whitening-btn');
       if (btn) btn.classList.add('active');
-      if (beforeImg) beforeImg.src = './whitening_treatment.png';
-      if (afterImg) afterImg.src = './before_case_all.png';
+      if (beforeImg) beforeImg.src = './after_whitening_laser.png';
+      if (afterImg) afterImg.src = './before_veneers.png';
     } else if (caseType === 'crowns') {
       const btn = document.getElementById('case-crowns-btn');
       if (btn) btn.classList.add('active');
       if (beforeImg) beforeImg.src = './screenshots_google/Screenshot 2026-07-20 214513.png';
-      if (afterImg) afterImg.src = './before_case_all.png';
+      if (afterImg) afterImg.src = './before_veneers.png';
     }
   };
 }
