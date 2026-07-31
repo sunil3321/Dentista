@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dentista | Premium Dental Clinic in Urapakkam, Chengalpattu | Dr. D Deepa</title>
+  <meta name="description" content="Dentista is a top-rated dental clinic in Urapakkam, Chengalpattu led by Dr. D Deepa. Specializing in Ceramic Crowns, Porcelain Veneers, Invisible Braces, Teeth Bleaching & Implants. Book your appointment today!">
+  <meta name="keywords" content="Dentista, Dental Clinic Urapakkam, Dentist in Chengalpattu, Ceramic Crowns, Veneers, Teeth Whitening, Dr D Deepa, Tooth Extraction">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Design System CSS -->
+  <link rel="stylesheet" href="styles.css?v=2.2">
+</head>
+<body>
+
+  <!-- Background Ambient Glow Effects -->
+  <div class="bg-glow-orb glow-cyan" style="top: 5%; left: -100px;"></div>
+  <div class="bg-glow-orb glow-purple" style="top: 35%; right: -150px;"></div>
+  <div class="bg-glow-orb glow-cyan" style="top: 70%; left: -100px;"></div>
+
+  <!-- Top Notification Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-info">
+        <div class="top-bar-item">
+          <i class="fa-solid fa-clock"></i>
+          <span>Mon - Sat: 10:00 AM - 1:00 PM | 5:00 PM - 8:00 PM (Sun: Closed)</span>
+        </div>
+        <div class="top-bar-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>No 3, Near Selvaraj Nagar Ext., Urapakkam, Chengalpattu</span>
+        </div>
+      </div>
+      <div class="top-bar-info">
+        <a href="tel:9361776876" class="top-bar-item" style="color: var(--primary-cyan); font-weight: 600;">
+          <i class="fa-solid fa-phone"></i>
+          <span>+91 93617 76876</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="header-nav" id="header-nav">
+    <div class="container nav-container">
+      <a href="#hero" class="logo-brand">
+        <div class="logo-icon">
+          <i class="fa-solid fa-tooth"></i>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">DENTISTA</span>
+          <span class="logo-sub">Dental Clinic & Esthetics</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Treatments</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#before-after" class="nav-link">Transformations</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#about" class="nav-link">About Clinic</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="tel:9361776876" class="btn btn-outline" style="display: none; @media(min-width: 992px){display:inline-flex;}">
+          <i class="fa-solid fa-phone"></i> Call Now
+        </a>
+        <button class="btn btn-primary" onclick="openBookingModal()">
+          <i class="fa-regular fa-calendar-check"></i> Book Appointment
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Background Video -->
+  <section class="hero-section" id="hero">
+    <!-- Local Video Background -->
+    <video autoplay loop muted playsinline class="hero-video-bg">
+      <source src="./create_a_video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="hero-badge-group">
+        <i class="fa-solid fa-star"></i>
+        <span class="hero-badge-text">4.9 ★ Rating (38+ Verified Patient Reviews)</span>
+        <span class="hero-badge-divider"></span>
+        <span class="hero-badge-text" style="color: var(--primary-cyan);">Established 2019</span>
+      </div>
+
+      <h1 class="hero-title">
+        Painless, Next-Gen <br><span class="gradient-text">Aesthetic Dental Care</span> in Urapakkam
+      </h1>
+
+      <p class="hero-description">
+        Experience advanced ceramic crowns, porcelain veneers, invisible braces, and precision dental implants with <strong>Dr. D Deepa</strong>. Compassionate patient care in a sterile, state-of-the-art environment.
+      </p>
+
+      <div class="hero-cta-group">
+        <button class="btn btn-primary" onclick="openBookingModal()" style="font-size: 1.05rem; padding: 15px 32px;">
+          <i class="fa-solid fa-calendar-plus"></i> Book Free Consultation
+        </button>
+        <a href="#services" class="btn btn-secondary" style="font-size: 1.05rem; padding: 15px 32px;">
+          <i class="fa-solid fa-stethoscope"></i> Explore Treatments
+        </a>
+        <a href="https://wa.me/919361776876" target="_blank" class="btn btn-outline" style="border-color: var(--accent-teal); color: var(--accent-teal);">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp Doctor
+        </a>
+      </div>
+
+      <!-- Quick Stats Bar -->
+      <div class="hero-stats-row">
+        <div class="stat-card">
+          <div class="stat-number">4.9 ★</div>
+          <div class="stat-label">Justdial Rating</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">7+ Yrs</div>
+          <div class="stat-label">Clinical Excellence</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Sterilized & Safe</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">2000+</div>
+          <div class="stat-label">Happy Smiles</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Treatments & Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <i class="fa-solid fa-sparkles"></i> Comprehensive Dental Solutions
+        </div>
+        <h2 class="section-title">Specialized Treatments & Procedures</h2>
+        <p class="section-subtitle">
+          Using international clinical standards, digital smile design, and bio-compatible materials to restore your confident smile.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="tab-btn active" onclick="filterServices('all')">All Treatments</button>
+        <button class="tab-btn" onclick="filterServices('cosmetic')">Cosmetic & Veneers</button>
+        <button class="tab-btn" onclick="filterServices('restorative')">Restorative & Crowns</button>
+        <button class="tab-btn" onclick="filterServices('ortho')">Invisible Braces</button>
+        <button class="tab-btn" onclick="filterServices('implants')">Implants & Extractions</button>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid" id="services-grid">
+        <!-- Service Card 1: Ceramic Crowns -->
+        <div class="glass-card service-card" data-category="restorative">
+          <div class="service-img-wrapper">
+            <img src="./screenshots_google/Screenshot 2026-07-20 214513.png" alt="Ceramic Crown Placement" class="service-img">
+            <span class="service-badge">Popular</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-crown"></i></div>
+          <h3 class="service-title">Ceramic Crowns & Bridges</h3>
+          <p class="service-desc">
+            Metal-free zirconia and E-Max ceramic crowns that replicate natural tooth translucency and strength for damaged or decayed teeth.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> 2 Sessions</span>
+            <button class="service-link" onclick="openBookingModal('Ceramic Crowns and Bridges')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 2: Porcelain Veneers -->
+        <div class="glass-card service-card" data-category="cosmetic">
+          <div class="service-img-wrapper">
+            <img src="./veneers_treatment.png" alt="Porcelain Dental Veneers Placement" class="service-img">
+            <span class="service-badge">Smile Makeover</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3 class="service-title">Porcelain Dental Veneers</h3>
+          <p class="service-desc">
+            Ultra-thin custom porcelain shells that fix chipped, discolored, gapped, or misaligned teeth for a flawless Hollywood smile.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> Custom Design</span>
+            <button class="service-link" onclick="openBookingModal('Porcelain Dental Veneers')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 3: Tooth Bleaching -->
+        <div class="glass-card service-card" data-category="cosmetic">
+          <div class="service-img-wrapper">
+            <img src="./whitening_treatment.png" alt="Laser Tooth Whitening Procedure" class="service-img">
+            <span class="service-badge">Instant Whitening</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-teeth"></i></div>
+          <h3 class="service-title">Laser Tooth Bleaching & Whitening</h3>
+          <p class="service-desc">
+            Professional in-office teeth whitening treatments to remove deep enamel stains, brightening your teeth up to 8 shades in 45 mins.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> 45 Mins</span>
+            <button class="service-link" onclick="openBookingModal('Tooth Bleaching')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 4: Invisible Aligners -->
+        <div class="glass-card service-card" data-category="ortho">
+          <div class="service-img-wrapper">
+            <img src="./screenshots_google/Screenshot 2026-07-20 214624.png" alt="Invisible Orthodontic Alignment" class="service-img">
+            <span class="service-badge">Modern Ortho</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3 class="service-title">Invisible & Clear Braces</h3>
+          <p class="service-desc">
+            Discreet, comfortable clear aligners and ceramic braces to straighten teeth without noticeable metal wires.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> Custom Plan</span>
+            <button class="service-link" onclick="openBookingModal('Invisible Braces')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 5: Dental Implants -->
+        <div class="glass-card service-card" data-category="implants">
+          <div class="service-img-wrapper">
+            <img src="./implants_treatment.png" alt="Titanium Artificial Teeth Implant Cross Section" class="service-img">
+            <span class="service-badge">Lifetime Solution</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-tooth"></i></div>
+          <h3 class="service-title">Artificial Teeth Implants</h3>
+          <p class="service-desc">
+            Titanium dental implants fused to the jawbone, providing a natural-looking, permanent replacement for missing teeth.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> Precision Surgery</span>
+            <button class="service-link" onclick="openBookingModal('Artificial Teeth Implant')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 6: Root Canal Treatment (RCT) -->
+        <div class="glass-card service-card" data-category="restorative">
+          <div class="service-img-wrapper">
+            <img src="./screenshots_google/Screenshot 2026-07-20 220245.png" alt="Root Canal Treatment Diagram" class="service-img">
+            <span class="service-badge">Painless RCT</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-tooth"></i></div>
+          <h3 class="service-title">Root Canal Treatment (RCT)</h3>
+          <p class="service-desc">
+            Single-sitting root canal procedure to eliminate infection, preserve natural tooth roots, and relieve tooth pain permanently.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> 45 Mins</span>
+            <button class="service-link" onclick="openBookingModal('Root Canal Treatment')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 7: Composite & Aesthetic Fillings -->
+        <div class="glass-card service-card" data-category="restorative">
+          <div class="service-img-wrapper">
+            <img src="./screenshots_google/Screenshot 2026-07-20 220652.png" alt="Composite Tooth Cavity Filling" class="service-img">
+            <span class="service-badge">Cavity Repair</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-gem"></i></div>
+          <h3 class="service-title">Composite & Aesthetic Fillings</h3>
+          <p class="service-desc">
+            Tooth-colored resin fillings that seamlessly match natural tooth shade while repairing cavities and restoring strength.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> 30 Mins</span>
+            <button class="service-link" onclick="openBookingModal('Composite Filling')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 8: Dental Prophylaxis & Scaling -->
+        <div class="glass-card service-card" data-category="restorative">
+          <div class="service-img-wrapper">
+            <img src="./screenshots_google/Screenshot 2026-07-29 152402.png" alt="Ultrasonic Dental Scaling" class="service-img">
+            <span class="service-badge">Deep Cleaning</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-hand-holding-medical"></i></div>
+          <h3 class="service-title">Dental Prophylaxis & Scaling</h3>
+          <p class="service-desc">
+            Ultrasonic deep scaling to eliminate stubborn tartar, plaque buildup, and calculus for fresh breath and healthy gums.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> Routine Care</span>
+            <button class="service-link" onclick="openBookingModal('Dental Prophylaxis')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 9: Painless Dental Extractions & Surgery -->
+        <div class="glass-card service-card" data-category="implants">
+          <div class="service-img-wrapper">
+            <img src="./screenshots_google/Screenshot 2026-07-21 130819.png" alt="Dental Extraction Forceps Procedure" class="service-img">
+            <span class="service-badge">Gentle Extraction</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-user-doctor"></i></div>
+          <h3 class="service-title">Painless Tooth Extractions</h3>
+          <p class="service-desc">
+            Gentle removal of severely decayed teeth or problematic wisdom teeth with localized anesthesia to minimize discomfort.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> 40 Mins</span>
+            <button class="service-link" onclick="openBookingModal('Dental Extraction')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 10: Periodontal & Gum Disease Treatment -->
+        <div class="glass-card service-card" data-category="restorative">
+          <div class="service-img-wrapper">
+            <img src="./screenshots_google/Screenshot 2026-07-21 152717.png" alt="Gingival & Gum Disease Care" class="service-img">
+            <span class="service-badge">Gum Health</span>
+          </div>
+          <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h3 class="service-title">Periodontal & Gum Disease Care</h3>
+          <p class="service-desc">
+            Specialized treatment for bleeding gums, gingivitis, and gum pocket infections to protect natural tooth support.
+          </p>
+          <div class="service-meta">
+            <span style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-regular fa-clock"></i> Targeted Care</span>
+            <button class="service-link" onclick="openBookingModal('Periodontal Care')">
+              Book Treatment <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Before & After Smile Transformation Section -->
+  <section class="section" id="before-after" style="background: rgba(15, 23, 42, 0.4);">
+    <div class="container">
+      <div class="smile-transform-container">
+        <div>
+          <div class="section-tag"><i class="fa-solid fa-sparkles"></i> Real Transformations</div>
+          <h2 class="section-title">See the Power of Aesthetic Dentistry</h2>
+          <p class="section-subtitle" style="margin-bottom: 24px;">
+            Drag the interactive slider below to explore real patient smile makeovers achieved at Dentista Urapakkam using custom ceramic veneers, teeth whitening & crowns.
+          </p>
+
+          <!-- Case Switcher Buttons -->
+          <div style="display: flex; gap: 10px; margin-bottom: 24px; flex-wrap: wrap;">
+            <button class="case-btn active" onclick="switchCase('veneers')" id="case-veneers-btn">
+              <i class="fa-solid fa-wand-magic-sparkles"></i> Porcelain Veneers
+            </button>
+            <button class="case-btn" onclick="switchCase('whitening')" id="case-whitening-btn">
+              <i class="fa-solid fa-teeth"></i> Laser Whitening
+            </button>
+            <button class="case-btn" onclick="switchCase('crowns')" id="case-crowns-btn">
+              <i class="fa-solid fa-crown"></i> Ceramic Crowns
+            </button>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+              <div class="feature-text">
+                <h4>Digital Smile Design Technology</h4>
+                <p>Preview your new smile before procedure starts using 3D digital planning.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+              <div class="feature-text">
+                <h4>Stain-Resistant Porcelain Materials</h4>
+                <p>Long-lasting ceramic veneers that maintain radiant shine for years.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+              <div class="feature-text">
+                <h4>Minimally Invasive Preservation</h4>
+                <p>Maximum natural tooth structure preservation with ultrathin veneers.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" onclick="openBookingModal('Smile Design Consultation')" style="margin-top: 32px;">
+            <i class="fa-solid fa-sparkles"></i> Plan My Smile Makeover
+          </button>
+        </div>
+
+        <!-- Interactive Drag Comparison Box with Swapped Before and After Position -->
+        <div class="comparison-slider-box" id="comparison-box">
+          <!-- Base Image (After Veneers Makeover) -->
+          <img src="./after_veneers.png" alt="After Aesthetic Veneer Makeover" class="comparison-img" id="comparison-before-img">
+          <!-- Overlay Revealed Image (Before Treatment) -->
+          <div class="comparison-after" id="comparison-after">
+            <img src="./before_veneers.png" alt="Before Aesthetic Dental Treatment" id="comparison-after-img">
+          </div>
+          <!-- Badge overlay -->
+          <div style="position: absolute; top: 16px; left: 16px; background: rgba(0,242,254,0.95); color: #07090e; padding: 6px 14px; border-radius: var(--border-radius-full); font-size: 0.775rem; font-weight: 800; box-shadow: 0 0 15px rgba(0,242,254,0.6); z-index: 15;">
+            BEFORE TREATMENT
+          </div>
+          <div style="position: absolute; top: 16px; right: 16px; background: rgba(7,9,14,0.85); color: var(--text-white); padding: 6px 14px; border-radius: var(--border-radius-full); font-size: 0.775rem; font-weight: 700; border: var(--border-glass); backdrop-filter: blur(8px); z-index: 15;">
+            AFTER MAKEOVER
+          </div>
+          <div class="slider-handle" id="slider-handle">
+            <div class="handle-circle"><i class="fa-solid fa-left-right"></i></div>
+          </div>
+          <input type="range" min="0" max="100" value="50" class="slider-range-input" id="range-slider">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Responsive Gallery Slider Section (3 per slide desktop, auto sliding) -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag"><i class="fa-solid fa-camera"></i> Clinic & Case Gallery</div>
+        <h2 class="section-title">Explore Our Modern Clinic Facilities</h2>
+        <p class="section-subtitle">
+          Take a look inside Dentista's squeaky-clean treatment rooms, advanced sterilization setup, and real treatment showcases.
+        </p>
+      </div>
+
+      <div class="slider-wrapper">
+        <div class="gallery-track-container">
+          <div class="gallery-track" id="gallery-track">
+            <!-- Slide 1: Justdial JSON Photo - Operating Room -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-gzyvu1y61m.jpg', 'Clean & Modern Dental Chair Unit with Overhead Light')">
+                <img src="https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-gzyvu1y61m.jpg" alt="Dental chair in clean, modern clinic room">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Modern Dental Chair Unit</h4>
+                  <span class="gallery-card-category">Clinic Interior</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2: Justdial JSON Photo - Waiting Lounge -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-teoohkj4i1.jpg', 'Comfortable Patient Waiting Lounge with Service Posters')">
+                <img src="https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-teoohkj4i1.jpg" alt="Patient waiting lounge area">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Patient Waiting Lounge</h4>
+                  <span class="gallery-card-category">Reception Area</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3: Justdial JSON Photo - Veneers -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('https://images.jdmagicbox.com/v2/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-unwdvohc0i.jpg', 'Porcelain Veneers for Discolored, Chipped or Gapped Teeth')">
+                <img src="https://images.jdmagicbox.com/v2/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-unwdvohc0i.jpg" alt="Porcelain Veneers Procedure">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Porcelain Veneer Makeovers</h4>
+                  <span class="gallery-card-category">Cosmetic Dentistry</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4: Justdial JSON Photo - Free Checkup -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-94itznycqv.jpg', 'Preventive Oral Hygiene & Free Consultation')">
+                <img src="https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-94itznycqv.jpg" alt="Preventive Oral Hygiene">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Oral Hygiene & Consultation</h4>
+                  <span class="gallery-card-category">Preventive Care</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5: Justdial JSON Photo - Wisdom Tooth Pain Care -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-p6fak5hlbr.jpg', 'Painless Wisdom Tooth Extraction & Relief')">
+                <img src="https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-p6fak5hlbr.jpg" alt="Wisdom Tooth Extraction">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Wisdom Tooth Care</h4>
+                  <span class="gallery-card-category">Oral Surgery</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 6: Justdial JSON Photo - Clinic Sterilization -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-wrx1s7dn2y.jpg', 'Sterilized Clinical Equipment')">
+                <img src="https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-wrx1s7dn2y.jpg" alt="Sterilized Equipment">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Sterilized Operatory Suite</h4>
+                  <span class="gallery-card-category">Hygiene & Safety</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 7: Justdial JSON Photo - Hygienic Environment -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-h921cyax8r.jpg', 'Sanitized Clinical Setup')">
+                <img src="https://images.jdmagicbox.com/comp/chengalpattu/z4/9999pxx44.xx44.200205214748.x6z4/catalogue/dentista-urapakkam-chengalpattu-dental-hospitals-h921cyax8r.jpg" alt="Sanitized Clinical Setup">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Sanitized Clinical Environment</h4>
+                  <span class="gallery-card-category">Clinic Interior</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 8: User Photo - Consultation Room -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('https://images.jdmagicbox.com/comp/chengalpattu/d3/9999pxx44.xx44.210121182914.n1d3/catalogue/-wjuf7t89v0.jpg', 'Doctor Consultation & Examination Area')">
+                <img src="https://images.jdmagicbox.com/comp/chengalpattu/d3/9999pxx44.xx44.210121182914.n1d3/catalogue/-wjuf7t89v0.jpg" alt="Doctor Consultation Area">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Doctor Consultation Room</h4>
+                  <span class="gallery-card-category">Patient Facility</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 9: User Photo - Dental Suite -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('https://images.jdmagicbox.com/comp/chengalpattu/d3/9999pxx44.xx44.210121182914.n1d3/catalogue/-oi2534h8gp.jpg', 'Patient Care & Dental Examination Suite')">
+                <img src="https://images.jdmagicbox.com/comp/chengalpattu/d3/9999pxx44.xx44.210121182914.n1d3/catalogue/-oi2534h8gp.jpg" alt="Patient Care Suite">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Examination Suite</h4>
+                  <span class="gallery-card-category">Patient Facility</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 10: Local Screenshot - Ergonomic Chair -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('./screenshots_google/Screenshot 2026-07-21 130358.png', 'Modern Ergonomic Dental Operating Chair')">
+                <img src="./screenshots_google/Screenshot 2026-07-21 130358.png" alt="Ergonomic Dental Chair">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Ergonomic Dental Chair</h4>
+                  <span class="gallery-card-category">Clinic Interior</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 11: Local Screenshot - Sterilization -->
+            <div class="gallery-slide">
+              <div class="gallery-card" onclick="openLightbox('./screenshots_google/Screenshot 2026-07-29 152402.png', '100% Autoclave Sterilization Unit')">
+                <img src="./screenshots_google/Screenshot 2026-07-29 152402.png" alt="Autoclave Unit">
+                <div class="gallery-card-overlay">
+                  <h4 class="gallery-card-title">Autoclave Sterilization</h4>
+                  <span class="gallery-card-category">Hygiene & Safety</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="slider-controls">
+          <button class="slider-arrow" id="gallery-prev" aria-label="Previous Slide"><i class="fa-solid fa-chevron-left"></i></button>
+          <div class="slider-dots" id="gallery-dots"></div>
+          <button class="slider-arrow" id="gallery-next" aria-label="Next Slide"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews / Testimonials Slider Section (3 per slide desktop, continuous auto-slide) -->
+  <section class="section" id="reviews" style="background: rgba(15, 23, 42, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag"><i class="fa-solid fa-comments"></i> Verified Patient Reviews</div>
+        <h2 class="section-title">Trusted by Urapakkam Residents</h2>
+        <p class="section-subtitle">
+          Over 38+ five-star reviews on Justdial & Google. Read what our satisfied patients say about their experience with Dr. D Deepa.
+        </p>
+      </div>
+
+      <div class="slider-wrapper">
+        <div class="gallery-track-container">
+          <div class="reviews-track" id="reviews-track">
+            <!-- Review 1 -->
+            <div class="review-slide">
+              <div class="glass-card review-card">
+                <div>
+                  <div class="review-header">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="verified-tag"><i class="fa-solid fa-circle-check"></i> Justdial Verified</span>
+                  </div>
+                  <p class="review-quote">
+                    "Clean, neat and cost effective treatment for all dental related issue in and around Urapakkam. Thank you Dr. Deepa!"
+                  </p>
+                </div>
+                <div class="review-author">
+                  <div class="author-avatar">SK</div>
+                  <div class="author-info">
+                    <h4>Suresh Kumar M</h4>
+                    <p>Urapakkam Resident • Feb 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-slide">
+              <div class="glass-card review-card">
+                <div>
+                  <div class="review-header">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="verified-tag"><i class="fa-solid fa-circle-check"></i> Verified Patient</span>
+                  </div>
+                  <p class="review-quote">
+                    "I got ceramic crowns fixed at Dentista. Dr. D Deepa explained every step clearly and the procedure was completely painless!"
+                  </p>
+                </div>
+                <div class="review-author">
+                  <div class="author-avatar" style="background: var(--gradient-primary); color: #07090e;">AR</div>
+                  <div class="author-info">
+                    <h4>Anitha Ramachandran</h4>
+                    <p>Chengalpattu • Nov 2023</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-slide">
+              <div class="glass-card review-card">
+                <div>
+                  <div class="review-header">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="verified-tag"><i class="fa-solid fa-circle-check"></i> Verified Patient</span>
+                  </div>
+                  <p class="review-quote">
+                    "Excellent porcelain veneers work! Very neat environment, courteous staff, and affordable fees compared to big hospital chains."
+                  </p>
+                </div>
+                <div class="review-author">
+                  <div class="author-avatar" style="background: linear-gradient(135deg, #10b981, #3b82f6);">VK</div>
+                  <div class="author-info">
+                    <h4>Vijay K.</h4>
+                    <p>Selvaraj Nagar Ext • Jan 2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review-slide">
+              <div class="glass-card review-card">
+                <div>
+                  <div class="review-header">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="verified-tag"><i class="fa-solid fa-circle-check"></i> Verified Patient</span>
+                  </div>
+                  <p class="review-quote">
+                    "Took my mother for dental teeth extraction and composite filling. Highly gentle approach with zero pain!"
+                  </p>
+                </div>
+                <div class="review-author">
+                  <div class="author-avatar" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">PR</div>
+                  <div class="author-info">
+                    <h4>Priya Rajan</h4>
+                    <p>Urapakkam • Mar 2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-arrow" id="reviews-prev" aria-label="Previous Review"><i class="fa-solid fa-chevron-left"></i></button>
+          <div class="slider-dots" id="reviews-dots"></div>
+          <button class="slider-arrow" id="reviews-next" aria-label="Next Review"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Clinic & Dr. D Deepa Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Interactive Excellence Cards Grid (Replaces Static Image beside Heading) -->
+        <div class="about-interactive-suite">
+          <div class="glass-card hover-feature-card">
+            <div class="card-icon-glow cyan-glow"><i class="fa-solid fa-user-doctor"></i></div>
+            <div class="card-content-wrap">
+              <span class="card-mini-badge">Chief Surgeon</span>
+              <h3>Dr. D Deepa</h3>
+              <p>BDS • Aesthetic & Restorative Dental Specialist</p>
+              <div class="card-hover-footer">
+                <span><i class="fa-solid fa-certificate"></i> 7+ Yrs Practice</span>
+                <i class="fa-solid fa-arrow-right hover-arrow"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card hover-feature-card">
+            <div class="card-icon-glow teal-glow"><i class="fa-solid fa-heart-pulse"></i></div>
+            <div class="card-content-wrap">
+              <span class="card-mini-badge" style="background: rgba(16,185,129,0.15); color: var(--accent-teal);">Zero Pain</span>
+              <h3>100% Painless Care</h3>
+              <p>Gentle localized anesthesia for extractions & treatments.</p>
+              <div class="card-hover-footer">
+                <span><i class="fa-solid fa-shield-check"></i> Comfort First</span>
+                <i class="fa-solid fa-arrow-right hover-arrow"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card hover-feature-card">
+            <div class="card-icon-glow gold-glow"><i class="fa-solid fa-star"></i></div>
+            <div class="card-content-wrap">
+              <span class="card-mini-badge" style="background: rgba(251,192,45,0.15); color: #fbc02d;">Top Rated</span>
+              <h3>4.9★ Justdial Rating</h3>
+              <p>Over 38+ five-star verified reviews in Urapakkam.</p>
+              <div class="card-hover-footer">
+                <span><i class="fa-solid fa-check-double"></i> Patient Trusted</span>
+                <i class="fa-solid fa-arrow-right hover-arrow"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card hover-feature-card">
+            <div class="card-icon-glow purple-glow"><i class="fa-solid fa-microchip"></i></div>
+            <div class="card-content-wrap">
+              <span class="card-mini-badge" style="background: rgba(139,92,246,0.15); color: var(--accent-purple);">Est. 2019</span>
+              <h3>2000+ Happy Smiles</h3>
+              <p>Ceramic Crowns, Porcelain Veneers & Clear Aligners.</p>
+              <div class="card-hover-footer">
+                <span><i class="fa-solid fa-wand-magic-sparkles"></i> Modern Tech</span>
+                <i class="fa-solid fa-arrow-right hover-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div>
+          <div class="section-tag"><i class="fa-solid fa-hospital"></i> About Dentista Clinic</div>
+          <h2 class="section-title">Pioneering Painless Dental Excellence Since 2019</h2>
+          <p style="color: var(--text-muted); margin-bottom: 20px; font-size: 1.05rem;">
+            Established in 2019 near Selvaraj Nagar Extension in Urapakkam, <strong>Dentista</strong> has grown into one of the most trusted dental healthcare centers in Chengalpattu.
+          </p>
+          <p style="color: var(--text-muted); margin-bottom: 28px;">
+            We believe that visiting a dental clinic should be a relaxing, transparent, and anxiety-free experience. From routine cleaning to full-mouth rehabilitation and clear aligners, every treatment is tailored to patient budget and comfort.
+          </p>
+
+          <div class="about-features-list">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-pump-medical"></i></div>
+              <div class="feature-text">
+                <h4>Class-B Autoclave Sterilization</h4>
+                <p>Strict hospital-grade hygiene protocol with single-use pouches for every patient.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+              <div class="feature-text">
+                <h4>Transparent Pricing & Custom Packages</h4>
+                <p>Cost-effective dental healthcare packages with zero hidden fees. UPI and Cash accepted.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div class="feature-text">
+                <h4>Prime Urapakkam Location</h4>
+                <p>Conveniently accessible near Selvaraj Nagar Extension with ample parking space.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Online Appointment Booking Section -->
+  <section class="section" id="booking">
+    <div class="container">
+      <div class="booking-section-wrapper">
+        <div class="booking-grid">
+          <div>
+            <div class="section-tag"><i class="fa-solid fa-calendar-check"></i> Easy Booking</div>
+            <h2 class="section-title">Schedule Your Consultation Online</h2>
+            <p style="color: var(--text-muted); margin-bottom: 30px;">
+              Fill out the instant booking form. Our clinical coordinator will confirm your slot via SMS or WhatsApp within 15 minutes.
+            </p>
+
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+              <div class="feature-item">
+                <div class="feature-icon" style="background: rgba(0, 242, 254, 0.1); color: var(--primary-cyan);">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div>
+                  <h4 style="font-size: 0.95rem;">Instant Call Assistance</h4>
+                  <p style="font-size: 0.85rem; color: var(--text-muted);">Prefer talking on phone? Call us directly at <strong>+91 93617 76876</strong></p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon" style="background: rgba(16, 185, 129, 0.1); color: var(--accent-teal);">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <h4 style="font-size: 0.95rem;">WhatsApp Direct Support</h4>
+                  <p style="font-size: 0.85rem; color: var(--text-muted);">Send your query or tooth photo directly to Dr. D Deepa on WhatsApp.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Booking Form -->
+          <div>
+            <form id="appointment-form" onsubmit="handleFormSubmit(event)">
+              <div class="form-group">
+                <label class="form-label">Full Name *</label>
+                <input type="text" id="patient-name" class="form-control" placeholder="Enter your full name" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Phone Number *</label>
+                  <input type="tel" id="patient-phone" class="form-control" placeholder="10-digit mobile number" pattern="[0-9]{10}" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Select Treatment</label>
+                  <select id="patient-treatment" class="form-control">
+                    <option value="General Checkup">General Consultation & Cleaning</option>
+                    <option value="Ceramic Crowns & Bridges">Ceramic Crowns & Bridges</option>
+                    <option value="Porcelain Veneers">Porcelain Dental Veneers</option>
+                    <option value="Tooth Bleaching">Teeth Bleaching & Whitening</option>
+                    <option value="Invisible Aligners">Invisible & Clear Braces</option>
+                    <option value="Dental Implants">Artificial Teeth Implants</option>
+                    <option value="Dental Extraction">Painless Tooth Extraction</option>
+                    <option value="Composite Filling">Composite Tooth Filling</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Preferred Date *</label>
+                  <input type="date" id="patient-date" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Preferred Time Slot</label>
+                  <select id="patient-time" class="form-control">
+                    <option value="Morning: 10:00 AM - 11:30 AM">Morning: 10:00 AM - 11:30 AM</option>
+                    <option value="Morning: 11:30 AM - 01:00 PM">Morning: 11:30 AM - 01:00 PM</option>
+                    <option value="Evening: 05:00 PM - 06:30 PM">Evening: 05:00 PM - 06:30 PM</option>
+                    <option value="Evening: 06:30 PM - 08:00 PM">Evening: 06:30 PM - 08:00 PM</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Additional Notes / Symptoms (Optional)</label>
+                <textarea id="patient-notes" class="form-control" rows="3" placeholder="Describe your dental issue or preference..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px; font-size: 1.05rem;">
+                <i class="fa-solid fa-paper-plane"></i> Confirm & Book Appointment
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs Accordion Section -->
+  <section class="section" id="faq" style="background: rgba(15, 23, 42, 0.3);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag"><i class="fa-solid fa-circle-question"></i> FAQs</div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Got questions about treatments, clinic timings, or payment methods? Find quick answers below.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item active">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>What are the working hours of Dentista Clinic in Urapakkam?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Dentista is open Monday to Saturday from <strong>10:00 AM to 1:00 PM</strong> in the morning, and <strong>5:00 PM to 8:00 PM</strong> in the evening. Sunday is closed.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Are dental crown and veneer procedures painful?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Not at all! Dr. D Deepa uses localized painless anesthesia techniques to ensure you feel zero discomfort during crown preparation or veneer placement.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>What payment methods are accepted at Dentista?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            We accept UPI (GPay, PhonePe, Paytm, BHIM), Credit/Debit Cards, and Cash. Healthcare packages with flexible payment splits are also available.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>How long do ceramic crowns and porcelain veneers last?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            With proper oral hygiene and regular 6-month checkups, high-quality zirconia ceramic crowns and E-Max veneers can last between 10 to 15+ years.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>How can I reach Dentista Clinic in Urapakkam?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Dentista is located at Complex No. 3, Near Selvaraj Nagar Extension, Urapakkam, Chengalpattu (Pincode: 603211). You can click on our location map or call +91 93617 76876 for directions.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag"><i class="fa-solid fa-compass"></i> Visit Clinic</div>
+        <h2 class="section-title">Location & Contact Details</h2>
+        <p class="section-subtitle">Located in Urapakkam, Chengalpattu with easy accessibility by public transit and car.</p>
+      </div>
+
+      <div class="location-grid">
+        <!-- Clinic Details -->
+        <div class="glass-card">
+          <h3 style="font-size: 1.4rem; margin-bottom: 20px; color: var(--primary-cyan);">
+            <i class="fa-solid fa-clinic-medical"></i> Dentista Dental Clinic
+          </h3>
+          
+          <div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 30px;">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-map-pin"></i></div>
+              <div class="feature-text">
+                <h4>Full Address</h4>
+                <p>Complex, No 3, Urapakkam, Near Selvaraj Nagar Extension, Chengalpattu, Tamil Nadu - 603211</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="feature-text">
+                <h4>Phone / Contact</h4>
+                <p><a href="tel:9361776876" style="color: var(--primary-cyan); font-weight: 600;">+91 93617 76876</a></p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-clock"></i></div>
+              <div class="feature-text">
+                <h4>Working Hours</h4>
+                <p>Mon - Sat: 10:00 AM – 1:00 PM | 5:00 PM – 8:00 PM<br><span style="color: var(--accent-coral);">Sunday: Closed</span></p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-wallet"></i></div>
+              <div class="feature-text">
+                <h4>Payment Accepted</h4>
+                <p>UPI (GPay, PhonePe, Paytm), Cash</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <a href="tel:9361776876" class="btn btn-primary">
+              <i class="fa-solid fa-phone"></i> Call Clinic
+            </a>
+            <a href="https://wa.me/919361776876" target="_blank" class="btn btn-outline" style="border-color: var(--accent-teal); color: var(--accent-teal);">
+              <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Google Map Embed -->
+        <div class="map-box">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.35467389104!2d80.0653674!3d12.8678107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f70000000001%3A0x0!2zMTLCsDUyJzA0LjEiTiA4MMKwMDMnNTUzMyJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Dentista Clinic Location Map">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo-brand" style="margin-bottom: 16px;">
+            <div class="logo-icon"><i class="fa-solid fa-tooth"></i></div>
+            <div class="logo-text">
+              <span class="logo-name">DENTISTA</span>
+              <span class="logo-sub">Dental Clinic & Esthetics</span>
+            </div>
+          </div>
+          <p>
+            Dentista is a dedicated dental clinic in Urapakkam, Chengalpattu, offering high-quality, painless healthcare services and aesthetic smile transformations for patients of all ages since 2019.
+          </p>
+          <div style="display: flex; gap: 12px; font-size: 1.2rem;">
+            <a href="#" style="color: var(--text-muted);"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" style="color: var(--text-muted);"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" style="color: var(--text-muted);"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Treatments</a></li>
+            <li><a href="#gallery">Clinic Gallery</a></li>
+            <li><a href="#before-after">Smile Transformations</a></li>
+            <li><a href="#reviews">Patient Reviews</a></li>
+            <li><a href="#about">About Dr. D Deepa</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Treatments</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Ceramic Crowns & Bridges</a></li>
+            <li><a href="#services">Porcelain Dental Veneers</a></li>
+            <li><a href="#services">Teeth Bleaching & Whitening</a></li>
+            <li><a href="#services">Invisible & Clear Braces</a></li>
+            <li><a href="#services">Artificial Teeth Implants</a></li>
+            <li><a href="#services">Painless Tooth Extraction</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Clinic Hours</h4>
+          <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 8px;">
+            <strong style="color: var(--text-white);">Mon - Sat:</strong><br>
+            10:00 AM – 1:00 PM<br>
+            5:00 PM – 8:00 PM
+          </p>
+          <p style="font-size: 0.875rem; color: var(--accent-coral);">
+            <strong style="color: var(--text-white);">Sunday:</strong> Closed
+          </p>
+          <div style="margin-top: 16px;">
+            <a href="tel:9361776876" style="color: var(--primary-cyan); font-weight: 600; font-size: 0.95rem;">
+              <i class="fa-solid fa-phone"></i> +91 93617 76876
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2019 - 2026 Dentista Dental Clinic. All Rights Reserved. Lead Surgeon: Dr. D Deepa.
+        </div>
+        <div>
+          Location: Urapakkam, Chengalpattu, Tamil Nadu 603211
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Appointment Booking Modal Popup -->
+  <div class="modal-backdrop" id="booking-modal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeBookingModal()"><i class="fa-solid fa-xmark"></i></button>
+      <div style="text-align: center; margin-bottom: 20px;">
+        <div class="logo-icon" style="margin: 0 auto 12px auto;"><i class="fa-solid fa-calendar-check"></i></div>
+        <h3 style="font-size: 1.5rem;" id="modal-treatment-title">Book Dental Appointment</h3>
+        <p style="font-size: 0.875rem; color: var(--text-muted);">Select your preferred slot with Dr. D Deepa</p>
+      </div>
+
+      <form id="modal-appointment-form" onsubmit="handleModalFormSubmit(event)">
+        <div class="form-group">
+          <label class="form-label">Patient Name *</label>
+          <input type="text" id="modal-patient-name" class="form-control" placeholder="Enter full name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Phone Number *</label>
+          <input type="tel" id="modal-patient-phone" class="form-control" placeholder="10-digit mobile number" pattern="[0-9]{10}" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Preferred Date *</label>
+            <input type="date" id="modal-patient-date" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Time Slot</label>
+            <select id="modal-patient-time" class="form-control">
+              <option value="10:00 AM - 01:00 PM">Morning Slot (10AM-1PM)</option>
+              <option value="05:00 PM - 08:00 PM">Evening Slot (5PM-8PM)</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px; margin-top: 10px;">
+          <i class="fa-brands fa-whatsapp"></i> Confirm & Send via WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Image Lightbox Modal -->
+  <div class="modal-backdrop" id="lightbox-modal">
+    <div class="modal-content" style="max-width: 800px; padding: 16px; background: rgba(7,9,14,0.95);">
+      <button class="modal-close" onclick="closeLightbox()"><i class="fa-solid fa-xmark"></i></button>
+      <img id="lightbox-img" src="" alt="Enlarged View" style="width: 100%; height: auto; max-height: 75vh; object-fit: contain; border-radius: var(--border-radius-md);">
+      <p id="lightbox-caption" style="text-align: center; margin-top: 12px; color: var(--text-white); font-weight: 600;"></p>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
